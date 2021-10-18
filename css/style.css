@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(116, 136, 106);
+    height: 800px;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(30, 114, 65, 0.74);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(25, 77, 32);
+    line-height: 0%;
+}
+
+.botao{
+    margin-top: 100px;
+    background-color:rgb(21, 59, 30);
+    color:rgb(199, 152, 152);
+    font-size: 20px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.botao:hover{
+    background-color:rgb(37, 54, 25);
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+}
